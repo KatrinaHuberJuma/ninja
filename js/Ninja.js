@@ -44,8 +44,8 @@ function Ninja(name) {
 
 
 }
-var kat = new Ninja("Kat", 23);
-var joe = new Ninja("Joe", 23);
+var kat = new Ninja("Kat");
+var joe = new Ninja("Joe");
 kat.punch("hey")
 joe.kick({boop:"beep"})
 joe.sayName().showStats().drinkShake().showStats().punch(kat);
